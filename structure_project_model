@@ -1,0 +1,100 @@
+A. Model/
+├── env_project_model
+│   ├── bin
+│   │   ├── activate
+│   │   ├── activate.csh
+│   │   ├── activate.fish
+│   │   ├── activate.ps1
+│   │   ├── activate_this.py
+│   │   ├── activate.xsh
+│   │   ├── django-admin
+│   │   ├── django-admin.py
+│   │   ├── easy_install
+│   │   ├── easy_install-3.6
+│   │   ├── pip
+│   │   ├── pip3
+│   │   ├── pip3.6
+│   │   ├── __pycache__
+│   │   │   └── django-admin.cpython-36.pyc
+│   │   ├── python -> python3
+│   │   ├── python3
+│   │   ├── python3.6 -> python3
+│   │   ├── python-config
+│   │   ├── sqlformat
+│   │   └── wheel
+│   ├── include
+│   │   └── python3.6m -> /usr/include/python3.6m
+│   └── lib
+│       └── python3.6
+│           ├── abc.py -> /usr/lib/python3.6/abc.py
+│           ├── base64.py -> /usr/lib/python3.6/base64.py
+│           ├── bisect.py -> /usr/lib/python3.6/bisect.py
+│           ├── _bootlocale.py -> /usr/lib/python3.6/_bootlocale.py
+│           ├── codecs.py -> /usr/lib/python3.6/codecs.py
+│           ├── collections -> /usr/lib/python3.6/collections
+│           ├── _collections_abc.py -> /usr/lib/python3.6/_collections_abc.py
+│           ├── config-3.6m-x86_64-linux-gnu -> /usr/lib/python3.6/config-3.6m-x86_64-linux-gnu
+│           ├── copy.py -> /usr/lib/python3.6/copy.py
+│           ├── copyreg.py -> /usr/lib/python3.6/copyreg.py
+│           ├── distutils
+│           ├── _dummy_thread.py -> /usr/lib/python3.6/_dummy_thread.py
+│           ├── encodings -> /usr/lib/python3.6/encodings
+│           ├── enum.py -> /usr/lib/python3.6/enum.py
+│           ├── fnmatch.py -> /usr/lib/python3.6/fnmatch.py
+│           ├── functools.py -> /usr/lib/python3.6/functools.py
+│           ├── __future__.py -> /usr/lib/python3.6/__future__.py
+│           ├── genericpath.py -> /usr/lib/python3.6/genericpath.py
+│           ├── hashlib.py -> /usr/lib/python3.6/hashlib.py
+│           ├── heapq.py -> /usr/lib/python3.6/heapq.py
+│           ├── hmac.py -> /usr/lib/python3.6/hmac.py
+│           ├── importlib -> /usr/lib/python3.6/importlib
+│           ├── imp.py -> /usr/lib/python3.6/imp.py
+│           ├── io.py -> /usr/lib/python3.6/io.py
+│           ├── keyword.py -> /usr/lib/python3.6/keyword.py
+│           ├── lib-dynload -> /usr/lib/python3.6/lib-dynload
+│           ├── LICENSE.txt -> /usr/lib/python3.6/LICENSE.txt
+│           ├── linecache.py -> /usr/lib/python3.6/linecache.py
+│           ├── locale.py -> /usr/lib/python3.6/locale.py
+│           ├── no-global-site-packages.txt
+│           ├── ntpath.py -> /usr/lib/python3.6/ntpath.py
+│           ├── operator.py -> /usr/lib/python3.6/operator.py
+│           ├── orig-prefix.txt
+│           ├── os.py -> /usr/lib/python3.6/os.py
+│           ├── posixpath.py -> /usr/lib/python3.6/posixpath.py
+│           ├── __pycache__
+│           ├── random.py -> /usr/lib/python3.6/random.py
+│           ├── reprlib.py -> /usr/lib/python3.6/reprlib.py
+│           ├── re.py -> /usr/lib/python3.6/re.py
+│           ├── rlcompleter.py -> /usr/lib/python3.6/rlcompleter.py
+│           ├── shutil.py -> /usr/lib/python3.6/shutil.py
+│           ├── site-packages
+│           ├── site.py
+│           ├── sre_compile.py -> /usr/lib/python3.6/sre_compile.py
+│           ├── sre_constants.py -> /usr/lib/python3.6/sre_constants.py
+│           ├── sre_parse.py -> /usr/lib/python3.6/sre_parse.py
+│           ├── stat.py -> /usr/lib/python3.6/stat.py
+│           ├── struct.py -> /usr/lib/python3.6/struct.py
+│           ├── tarfile.py -> /usr/lib/python3.6/tarfile.py
+│           ├── tempfile.py -> /usr/lib/python3.6/tempfile.py
+│           ├── tokenize.py -> /usr/lib/python3.6/tokenize.py
+│           ├── token.py -> /usr/lib/python3.6/token.py
+│           ├── types.py -> /usr/lib/python3.6/types.py
+│           ├── warnings.py -> /usr/lib/python3.6/warnings.py
+│           ├── weakref.py -> /usr/lib/python3.6/weakref.py
+│           └── _weakrefset.py -> /usr/lib/python3.6/_weakrefset.py
+└── project_model
+    ├── db.sqlite3
+    ├── manage.py
+    └── project_model
+        ├── asgi.py
+        ├── __init__.py
+        ├── __pycache__
+        │   ├── __init__.cpython-36.pyc
+        │   ├── settings.cpython-36.pyc
+        │   ├── urls.cpython-36.pyc
+        │   └── wsgi.cpython-36.pyc
+        ├── settings.py
+        ├── urls.py
+        └── wsgi.py
+
+18 directories, 79 files
