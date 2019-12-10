@@ -1,0 +1,51 @@
+{% extends 'ata/base.html' %}
+{% load static %}
+{% block content %}
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-12">
+                <div class="btn btn-link button-add-data">
+                    <a href="{% url 'add-blog' %}" class="btn btn-info button-add-data" role="button">Tambah Data</a>
+                </div>
+            </div>
+        </div>
+        {% for blog in blogs %}
+            <div class="row align-items-center">
+                <div class="col-md-12 blog-pict">
+                    <img class="" src="{{blog.img_blog}}" alt="">
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-12 blog-center">
+                    <p>
+                        {{blog.date_blog}} 
+                    </p>
+                    <h2>
+                        {{blog.judul_blog}}
+                    </h2>
+                    <p>
+                        {{blog.isi_blog}} 
+                    </p>
+                </div>
+            </div>
+            <div class="home-white-space">
+
+            </div>
+        {% endfor %}
+        <div class="row align-items-center">
+            <div class="col-md-12 blog-pict blog-size-sms">
+                <img class="" src="{% static 'img/blog/sms.png' %}" alt="">
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-12 blog-center">
+                <h2>
+                    OTP, Si Kode Rahasia nan Berbahaya
+                </h2>
+                <p>
+                    Kemudahan dalam berbagai transaksi perbankan memang banyak memberikan keuntungan bagi nasabah. Bayangkan saja, aktivitas jual beli yang pada awalnya membutuhkan waktu dan tempat, kini bisa dilakukan tanpa perlu beranjak dari tempat duduk Anda dan pembayaran lunas dalam hitungan detik dengan transaksi online. Namun tanpa disadari, kemudahan tersebut bukan berarti tanpa celah. 
+                </p>
+            </div>
+        </div>           
+    </div>
+{% endblock %}
